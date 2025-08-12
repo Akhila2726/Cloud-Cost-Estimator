@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #4a148c;
+  font-size: larger;
+
+  /* Warm gradient with light → dark from left to right */
+  background: linear-gradient(90deg,
+              #fff7e6,  /* very light yellow */
+              #ffecb3,  /* soft peach */
+              #ffd180,  /* mellow orange */
+              #ffb74d); /* warm darker orange */
+  background-size: 300% 300%; /* make it larger so it can move */
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Smoothly move the gradient across the screen */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
