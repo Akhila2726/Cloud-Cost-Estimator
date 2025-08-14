@@ -1,4 +1,4 @@
-#  CloudCost Estimator
+#  Cloud Cost Estimator
 
 A **full-stack cost calculator** built with **Spring Boot**, **PostgreSQL**, and **React**.  
 It allows the user to select a **Type**, **Subtype**, **Region**, and **Quantity**, then calculates total cost and provides a detaled bill.
@@ -129,6 +129,12 @@ The frontend will run at: http://localhost:3000
 - UI displays results in real-time.
 
  ---
+
+## Working Demo Video
+
+https://drive.google.com/file/d/1MZCICetAxFhCa6lTBh5PY_D3frLGubHI/view?usp=sharing
+
+---
 
 ## License
 This project is for **learning/demo purposes** and is **not production-ready**.
